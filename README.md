@@ -34,8 +34,8 @@ There are three main functions which are separated by the status of task list, �
 
 	
 	Table 2: table “todolist” all the task will be stored in the table, LIST_ID is the primary key
-	Fields Name	LIST_ID	    LIST_CREATETIME	LIST_STATUS	LIST_USERID	LIST_TITLE	    LIST_LOG	LIST_DESCRIPTION	LIST_DUEDATE  LIST_UpdateDate
-	Type	    varchar(20)	datetime	    varchar(20)	datetime	varchar(225)	varchar(225)	varchar(255)	datetime	  datetime
+	FieldsName	LIST_ID	    LIST_CREATETIME	LIST_STATUS	LIST_USERID	    LIST_TITLE	    LIST_LOG	LIST_DESCRIPTION	LIST_DUEDATE LIST_UpdateDate
+	Type	    varchar(20)	datetime	    varchar(20)	varchar(225)	varchar(225)	varchar(255)	datetime	  datetime
 	
 	
 	Table 3: table map_usertasklist, the main functionality is for sharing feature.
