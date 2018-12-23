@@ -3,7 +3,7 @@ Online ToDo list web application is a web platform which user can operate and ma
 
 - Flask framework which I used to develop the online todo list application. Python is applied to develop backend and html applying JavaScript and jQuery to develop the frontend.  The main reason is that, as we know, flask framework is microframework for python based on Werkzeug, Jinja 2  which are libraries. Developers can fast develop a web application. Moreover, the it is loose coupling between database, frond end and backend so as to deploy and maintain the web application easily. As for Database, this project uses MySQL to do CRUD (Create, Read, Updata, Delete) operations.
 
-** Development the Online Todo List web application
+- Development the Online Todo List web application
 There are three main functions which are separated by the status of task list, “To do”, “Doing” and “Done”, and search all the tasks which the current user has. The detail information about GUI and business, please refer to the figures below. 
 	a.	Main page, when the user first browser the website, it shows the main page. 
 	b.	Sing up page, user cannot do any operation when they do not login. User can register an account by username, email address and password. 
@@ -24,7 +24,7 @@ There are three main functions which are separated by the status of task list, �
 	 
 	h.	Share one task to specific user, user can share a specific task to a exist user by input people email address or username. Then the person will check the task in their task list.
 	 
-** Database Design
+- Database Design
 	a.	Based on the main features,  four tables are designed which are “user”, “todolist” , “map_usertasklist” and “list_status”. 
 	
 	
@@ -34,12 +34,10 @@ There are three main functions which are separated by the status of task list, �
 
 	
 	Table 2: table “todolist” all the task will be stored in the table, LIST_ID is the primary key
-	Fields Name	LIST_ID	LIST_CREATETIME	LIST_STATUS	LIST_USERID	LIST_TITLE	LIST_LOG	LIST_DESCRIPTION	LIST_DUEDATE	LIST_UpdateDate
-	Type	varchar(20)	datetime	varchar(20)	datetime	varchar(225)	varchar(225)	varchar
-	(255)	datetime	datetime
+	Fields Name	LIST_ID	    LIST_CREATETIME	LIST_STATUS	LIST_USERID	LIST_TITLE	    LIST_LOG	LIST_DESCRIPTION	LIST_DUEDATE  LIST_UpdateDate
+	Type	    varchar(20)	datetime	    varchar(20)	datetime	varchar(225)	varchar(225)	varchar(255)	datetime	  datetime
 	
 	
-
 	Table 3: table map_usertasklist, the main functionality is for sharing feature.
 	FieldsName	MAP_LISTID	MAP_USERID
 	  Type	    varchar(20)	varchar(20)
@@ -48,7 +46,7 @@ There are three main functions which are separated by the status of task list, �
 	  
 	Table 4: table list_status, the main functionality is maintaining the list status when the task status are getting complex, I think the task status maintain table will have developer to maintain and operate the task status.
 	Fields Name	STATUS_ID	STATUS_NAME
-	Type	varchar(10)	varchar(10)
+	Type	    varchar(10)	varchar(10)
 
 	b.	Design of Store Procedures
 	There are six store procedures designed to operate todo task list. 
