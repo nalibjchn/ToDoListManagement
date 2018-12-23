@@ -12,11 +12,11 @@ There are three main functions which are separated by the status of task list, �
 	c.	Sign out/Sign in, user can sign in with user name and password and sign out on the navigation bar directly. Thus, there is no independent page to do the operations. When user click “sign out”, then the username session will be deleted, next time user browser the web page, they have to sign in again.
 	d.	Main page with a task list, after sign in the web page, the main page will display on the main functionalities and a task list for current user. There are three main parts,
 	
-	 ***The first part is main functionalities, that is, “To Do Task” that user click button “Add” then will redirect the “Create new task” page. Click button “Setting” under the “To do”,  “Doing Task” and “Done Task”, user can check the task list with the three status tasks directly. “Task List” is one of features to get all tasks with different status.
+    ***The first part is main functionalities, that is, “To Do Task” that user click button “Add” then will redirect the “Create new task” page. Click button “Setting” under the “To do”,  “Doing Task” and “Done Task”, user can check the task list with the three status tasks directly. “Task List” is one of features to get all tasks with different status.
 	 
-	 ***The second part is searching a specific task in the task list, which is straightforward to search any tasks from the current list.
+	***The second part is searching a specific task in the task list, which is straightforward to search any tasks from the current list.
 	 
-	 ***The third part is the operation of each task in the task list, that is, delete a task, check the detail information of the selected task, and share a task to others. All the operation user can operate directly in the task list.
+	***The third part is the operation of each task in the task list, that is, delete a task, check the detail information of the selected task, and share a task to others. All the operation user can operate directly in the task list.
 
 	e.	Create a task, starting a  new task lifecycle from creating a task, the main contents are task title (the task title should be unique.) , due date, task description and task comment. After click “submit”, then go back to the task list with “todo” status.
 	 
