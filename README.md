@@ -1,9 +1,7 @@
-- Project Specification
+- Introduce the Project
 Online ToDo list web application is a web platform which user can operate and maintain their tasks. the main features are that users can add a new task, delete an existing task, search tasks,  share a task to other account users and update the task’s status. Finally, all data will store in the MYSQL database. 
 
 - Flask framework which I used to develop the online todo list application. Python is applied to develop backend and html applying JavaScript and jQuery to develop the frontend.  The main reason is that, as we know, flask framework is microframework for python based on Werkzeug, Jinja 2  which are libraries. Developers can fast develop a web application. Moreover, the it is loose coupling between database, frond end and backend so as to deploy and maintain the web application easily. As for Database, this project uses MySQL to do CRUD (Create, Read, Updata, Delete) operations.
-
-- Introduce the Project
 
 ** Development the Online Todo List web application
 There are three main functions which are separated by the status of task list, “To do”, “Doing” and “Done”, and search all the tasks which the current user has. The detail information about GUI and business, please refer to the figures below. 
